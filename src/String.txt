@@ -1,0 +1,24 @@
+- String1.equals(String2) so sánh 2 chuỗi phân biệt chữ hoa chữ thường;
+- String1.equalsIgnoreCase(String2) so sánh 2 chuỗi không phân biệt chữ hoa chữ thường;
+-String.replaceAll(String regex, String replacement) dùng để thay thế 1 chuỗi 1 ký tự dựa trên biểu thức chính quy
+ví dụ:
+    String s1 = "Cuong";
+    String s2 = "cuong";
+
+    s1.equals(s2) ---> false;
+    s1.equalsIgnoreCase(s2) ---> true;
+- public toLowerCase() chuyen tat ca cac ky tu trong 1 chuoi ve chu thuong;
+ví dụ: String s3 = "BADKDDD" --> "badkddd";
+
+- public toUpperCase() chuyen tat cac cac ky tu trong 1 chuoi ve chu hoa;
+ví du: String s4 = "badkddd" --> "BADKDDD";
+
+- public trim() xoa tat ca cac khoang trang o dau va cuoi cua 1 chuoi;
+ví dụ: String s5 = "         dkng dkang        "  ---> "dkng dkang";
+- public charAt(indexOf i) trả ve 1 ky tu trong chuoi theo index;
+
+public static valueOf(int n) chuyen 1 so sang String;
+public static valueOf(long n)
+public static valueOf(boolean n);
+pubilc static valueOf(float n);
+public static valueOf(double n);
